@@ -16,7 +16,7 @@ async function start(client) {
             pull.aliases.forEach((alias) => {
                 client.aliases.set(alias, pull.name);
             });
-            console.log(chalk.white(`[${chalk.green("COMMANDS")}]${chalk.white(" - ")}${chalk.green(`Loaded ${pull.name}.js`)}`));
+            console.log(chalk.white(`[${chalk.blueBright("COMMANDS")}]${chalk.white(" - ")}${chalk.blueBright(`Loaded ${pull.name}.js`)}`));
         }
     })
     console.log(" ");
@@ -26,7 +26,7 @@ async function start(client) {
         const evt = require(`../events/${file}`);
         let eName = file.split('.')[0];
         client.on(eName, evt.bind(null, client));
-        console.log(chalk.white(`[${chalk.green("EVENTS")}]${chalk.white(" - ")}${chalk.green(`Loaded ${eName}.js`)}`));
+        console.log(chalk.white(`[${chalk.blueBright("EVENTS")}]${chalk.white(" - ")}${chalk.blueBright(`Loaded ${eName}.js`)}`));
     };
 
     process.on('unhandledRejection', error => {
