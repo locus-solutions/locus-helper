@@ -10,6 +10,12 @@
   </p>
 </div>
 
+## Notes
+- There are some modules missing, you can still start the bot but there are some things within the source that you will not be able to use
+- If you would like to contribute to the missing modules, contact me through one of [these](https://github.com/synesta/locus-helper#contact-me-through) options
+- If you'd like to be notified when the modules are completed, click the "Watch" button on the top right
+- The project will be cleaned once the missing modules and moderation modules are finished, but like before you can still use it
+
 ## Setup
 
 -   <a href="https://nodejs.org/dist/v16.14.0/node-v16.14.0-x64.msi">Install NodeJS</a>
@@ -21,7 +27,7 @@
 
 ## Contribution guide
 
-If you have a suggestion that would make the bot better, please fork the repo and create a pull request. You can also open an issue.
+If you have a suggestion that would make the bot better, please fork the repo and create a pull request. You can also open an issue
 Don't forget to give the project a star! Thanks again!
 
 ## Guidelines
@@ -32,14 +38,14 @@ Don't forget to give the project a star! Thanks again!
 
 ### License
 
-Locus Helper is distributed under the Apache License 2.0.
+Locus Helper is distributed under the Apache License 2.0
 
 ### Credits
 
 -   <a href="https://github.com/rayzdev">rayz</a>
 -   <a href="https://github.com/synesta">synesta</a>
 
-#### Contact me through:
+### Contact me through:
 
 -   Email: synesta@locus.solutions
 -   Discord: synesta#5526
