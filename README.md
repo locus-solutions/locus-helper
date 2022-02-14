@@ -17,7 +17,6 @@
 - The project will be cleaned once the missing modules and moderation modules are finished, but like before you can still use it
 
 ## Setup
-
 -   <a href="https://nodejs.org/dist/v16.14.0/node-v16.14.0-x64.msi">Install NodeJS</a>
 -   <a href="https://yarnpkg.com/getting-started/install">Install Yarn</a>
 -   Clone the repository
@@ -26,7 +25,6 @@
 -   Start the bot with `node .`
 
 ## Contribution guide
-
 If you have a suggestion that would make the bot better, please fork the repo and create a pull request. You can also open an issue
 Don't forget to give the project a star! Thanks again!
 
@@ -52,22 +50,18 @@ module.exports = {
 ```
 
 ## Guidelines
-
 -   Use [Yarn](https://yarnpkg.com/)
 -   Use [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) before committing code
 -   Test your changes locally before committing code
 
-### License
-
+## License
 Locus Helper is distributed under the Apache License 2.0
 
-### Credits
-
+## Credits
 -   <a href="https://github.com/rayzdev">rayz</a>
 -   <a href="https://github.com/synesta">synesta</a>
 
-### Contact me through:
-
+## Contact me through:
 -   Email: synesta@locus.solutions
 -   Discord: synesta#5526
 -   Telegram: synpres
