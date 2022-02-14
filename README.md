@@ -36,8 +36,8 @@ Locus Helper is distributed under the Apache License 2.0.
 
 ### Credits
 
--   <a href="github.com/rayzdev">rayz</a>
--   <a href="github.com/synesta">synesta</a>
+-   <a href="https://github.com/rayzdev">rayz</a>
+-   <a href="https://github.com/synesta">synesta</a>
 
 #### Contact me through:
 
