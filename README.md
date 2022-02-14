@@ -30,6 +30,27 @@
 If you have a suggestion that would make the bot better, please fork the repo and create a pull request. You can also open an issue
 Don't forget to give the project a star! Thanks again!
 
+## Command Example
+```js
+// Import Modules
+const { MessageEmbed } = require('discord.js');
+
+module.exports = {
+    name: "",
+    category: "",
+    description: "",
+    aliases: [""],
+    usage: "",
+    run: async(client, message, args, util) => {
+        const embed = new MessageEmbed()
+
+        await message.channel.send({
+            embeds: [embed]
+        });
+    }
+}
+```
+
 ## Guidelines
 
 -   Use [Yarn](https://yarnpkg.com/)
