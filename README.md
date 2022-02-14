@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/synesta/maven">
+  <a href="https://github.com/synesta/locus-helper">
     <img src="logo.png" alt="Logo">
   </a>
 
