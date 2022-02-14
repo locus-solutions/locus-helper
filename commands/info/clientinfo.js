@@ -10,7 +10,7 @@ module.exports = {
     run: async(client, message, args, util) => {
         const msg = await message.channel.send({ content: "\u200B"})
 
-        const apiLatency = Math.round(client.ws.ping)
+        const apiLatency = Math.round(client.ws.ping);
         const botLatency = msg.createdTimestamp - message.createdTimestamp;
 
         let totalSeconds = (client.uptime / 1000);
@@ -32,6 +32,6 @@ module.exports = {
         msg.edit({
             content: null,
             embeds: [embed]
-        })
+        });
     }
 }

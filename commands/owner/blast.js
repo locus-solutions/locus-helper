@@ -12,7 +12,7 @@ module.exports = {
     run: async(client, message, args, util) => {
         const msg = args.join(" ");
         if(!msg) {
-            return util.quickEmbed(client, message, "Please provide a message", client.colors.red)
+            return util.quickEmbed(client, message, "Please provide a message", client.colors.red);
         }
 
         client.guilds.cache.forEach(async(guild) => {
@@ -22,14 +22,14 @@ module.exports = {
                 .setThumbnail(guild.iconURL())
                 .setDescription(msg)
                 .setColor(client.colors.red)
-                .setTimestamp()
+                .setTimestamp();
                 
                 await guild.systemChannel.send({
                     embeds: [embed]
-                })
+                });
             } catch {
                 return;
             }
-        })
+        });
     }
 }

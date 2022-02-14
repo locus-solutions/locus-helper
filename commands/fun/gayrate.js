@@ -11,10 +11,10 @@ module.exports = {
 
         const embed = new MessageEmbed()
         .setDescription(`${member} is **${util.randomizeNumber(0, 100)}%** gay`)
-        .setColor(client.colors.accent)
+        .setColor(client.colors.accent);
 
         await message.reply({
             embeds: [embed]
-        })
+        });
     }
 }
