@@ -27,7 +27,6 @@ module.exports = {
         const embed = new MessageEmbed()
         .setThumbnail(response.avatar_url)
         .addField("Profile URL:", `${response.html_url}`, true)
-        .addField("Website", `${response.blog}`, true)
         .addField("Bio:", `${response.bio}`, true)
         .addField("Twitter Handle:", `${response.twitter_username}`, true)
         .addField("Public Repos:", `${response.public_repos}`, true)
