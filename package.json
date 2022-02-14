@@ -12,6 +12,7 @@
     "chalk": "^4.1.1",
     "discord.js": "^13.0.0-dev.d6c43a5.1625832172",
     "fs": "^0.0.1-security",
+    "insult": "^0.0.3",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
     "quick.db": "^7.1.3",
