@@ -1,0 +1,22 @@
+{
+  "name": "locus",
+  "version": "1.0.0",
+  "description": "Locus Helper discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rayz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^13.0.0-dev.d6c43a5.1625832172",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3",
+    "rayzdev": "^1.6.3",
+    "util": "^0.12.4",
+    "weky": "^2.0.7"
+  }
+}
