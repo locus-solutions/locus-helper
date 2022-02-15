@@ -12,6 +12,7 @@
     "chalk": "^4.1.1",
     "discord.js": "^13.0.0-dev.d6c43a5.1625832172",
     "fs": "^0.0.1-security",
+    "give-me-a-joke": "^0.5.1",
     "insult": "^0.0.3",
     "moment": "^2.29.1",
     "ms": "^2.1.3",
