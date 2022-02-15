@@ -24,7 +24,7 @@
 -   Open the cloned repository on your machine in a shell and write `yarn` to install dependencies
 -   Start the bot with `node .`
 
-## Contribution guide
+## Contribution Guide
 If you have a suggestion that would make the bot better, please fork the repo and create a pull request. You can also open an issue
 Don't forget to give the project a star! Thanks again!
 
@@ -49,6 +49,24 @@ module.exports = {
 }
 ```
 
+## Util Examples
+```js
+const util = require('../../Utils/util.js');
+
+// randomArray
+const array = ["1", "2", "3", "4"]
+console.log(util.randomizeArray(array))
+
+// packageJson
+console.log(util.packageJson.version)
+
+// randomizeNumber
+console.log(util.randomizeNumber(10, 100))
+
+// quickEmbed
+return util.quickEmbed(client, message, "There was an error, please try again", client.colors.red)
+```
+
 ## Guidelines
 -   Use [Yarn](https://yarnpkg.com/)
 -   Use [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) before committing code
@@ -61,7 +79,7 @@ Locus Helper is distributed under the Apache License 2.0
 -   <a href="https://github.com/rayzdev">rayz</a>
 -   <a href="https://github.com/synesta">synesta</a>
 
-## Contact me through:
+## Contact Me:
 -   Email: synesta@locus.solutions
 -   Discord: synesta#5526
 -   Telegram: synpres
