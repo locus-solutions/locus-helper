@@ -35,6 +35,7 @@ module.exports = {
 
             // Adding logging to moderation commands like before, not yet though because I just want to get the moderation module pushed
             try {
+               await member.kick()
                util.quickEmbed(client, message, `${member} has been banned`, client.colors.red)
             } catch (e) {
                 return util.quickEmbed(client, message, "There was an error while trying to ban this user", client.colors.red)
