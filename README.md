@@ -76,8 +76,10 @@ return util.quickEmbed(client, message, "There was an error, please try again", 
 Locus Helper is distributed under the Apache License 2.0
 
 ## Credits
--   <a href="https://github.com/rayzdev">rayz</a>
 -   <a href="https://github.com/synesta">synesta</a>
+-   <a href="https://github.com/honzu">honzu</a>
+-   <a href="https://github.com/rayzdev">rayz</a>
+
 
 ## Contact Me:
 -   Email: synesta@locus.solutions
