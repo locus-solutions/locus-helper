@@ -19,7 +19,7 @@ module.exports = async(client, message) => {
     if(command) {
         if(command.ownerOnly === true) {
             if(!client.config.owners.includes(message.author.id)) {
-                return util.quickEmbed(client, message, "This command is restricted to bot owners", client.colors.red)
+                return util.quickEmbed(client, message, "You cannot use this command", client.colors.red)
             }
         }
 
