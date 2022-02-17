@@ -35,7 +35,7 @@ module.exports = {
             return util.quickEmbed(client, message, "There is no \`Muted\` role, one has been created", client.colors.green)
         }
 
-        if(toMute.roles.cache.has(muteRole)) {
+        if(toMute.roles.cache.has(muteRole.id)) {
             return util.quickEmbed(client, message, "User is already muted", client.colors.red)
         }
         
