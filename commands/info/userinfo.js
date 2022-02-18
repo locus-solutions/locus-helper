@@ -18,23 +18,21 @@ module.exports = {
             bot = "No";
         }
         
-        /*
-        let p;
-        switch(member.user.presence.status) {
+        let status;
+        switch(member.presence.status) {
             case "online":
-                p = "<:online:851204442443087922> | Presence: Online";
+                status = "🟢 | Online";
                 break;
             case "dnd":
-                p = "<:dnd:851204454698057758> | Presence: Do not Disturb";
+                status = "🔴 | Do not Disturb";
                 break;
             case "idle":
-                p = "<:idle:851204465872207872> | Presence: Idle";
+                status = "🌙 | Idle";
                 break;
             case "offline":
-                p = "<:offline:851204489134473267> | Presence: Offline";
+                status = "⚫ | Offline";
                 break;
         }
-        */
 
             const embed = new Discord.MessageEmbed()
 
@@ -42,7 +40,7 @@ module.exports = {
             .setColor(client.colors.accent)
             .addField("User Information", `👤 | Name: ${member.displayName}\n🆔 | ID: ${member.user.id}\n#️⃣ | Tag: #${member.user.discriminator}`, true)
             .addField("Account Information", `📆 | Joined At: ${moment(member.joinedAt).format('LLLL')} (${moment(member.joinedAt).fromNow()})\n📆 | Created At: ${moment(member.user.createdAt).format('LLLL')} (${moment(member.user.createdAt).fromNow()})\n🤖 | Bot: ${bot}`)
-            //.addField("User Status", `${p}`)
+            .addField("User Status", `${status}`, true)
             .addField("User Roles", `${member.roles.cache.filter(r => r.id !== message.guild.id).map(roles => `${roles}`).join(" | ") || "None"}`)
 
             await message.channel.send({
