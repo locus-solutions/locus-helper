@@ -5,7 +5,7 @@ module.exports = {
     name: "meme",
     category: "Fun",
     description: "Send random memes.",
-    aliases: [""],
+    aliases: [" "],
     usage: "meme",
     run: async(client, message, args, util) => {
         fetch('https://api.nuggetdev.com/api/meme')

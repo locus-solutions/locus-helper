@@ -5,7 +5,7 @@ module.exports = {
     name: "dog",
     category: "Fun",
     description: "Send random dog pictures.",
-    aliases: [""],
+    aliases: [" "],
     usage: "dog",
     run: async(client, message, args, util) => {
         fetch('https://dog.ceo/api/breeds/image/random')
