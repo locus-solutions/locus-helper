@@ -317,6 +317,11 @@ combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@>=0.3.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.0.0.tgz#86d58f24ee98126568936bd1d3574e0308a99a40"
+  integrity sha512-JJfP2saEKbQqvW+FI93OYUB4ByV5cizMpFMiiJI8xDbBvQvSkIk0VvQdn1CZ8mqAO8Loq2h0gYTYtDFUZUeERw==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -1479,6 +1484,13 @@ unbox-primitive@^1.0.1:
     has-bigints "^1.0.1"
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
+
+urban@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/urban/-/urban-0.3.4.tgz#e5ddd7e822c2b914532da03bcb78b52feb8e7d64"
+  integrity sha512-9iDgt2Om6wUrQg9jvU3BwlwBotrXX7FgTy/RrInmtHsEYOCcnyQtp3WeCQ04N3TSJoz+7FOe/AsZrX+y8nVOJA==
+  dependencies:
+    commander ">=0.3.0"
 
 uri-js@^4.2.2:
   version "4.4.1"
