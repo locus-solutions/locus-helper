@@ -1,13 +1,10 @@
 const Discord = require('discord.js');
-const util = require('../Utils/util');
+const util = require('../utils/util');
 const db = require('quick.db');
 
 const cooldowns = new Map();
 
 module.exports = async(client, message) => {
-    const money = await db.fetch(`money_${message.author.id}`)
-    if(money === null) db.add(`money_${message.author.id}`, 1000)
-
     if(message.author.bot || !message.guild || !message.content.startsWith(client.config.prefix)) return;
 
     let args = message.content.slice(client.config.prefix.length).trim().split(/ +/g);

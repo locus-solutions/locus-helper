@@ -28,4 +28,3 @@ module.exports.quickEmbed = async function(client, message, content, color) {
     })
 };
 
-module.exports.economy = require('../Data/economy');
