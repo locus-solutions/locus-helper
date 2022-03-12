@@ -1,5 +1,5 @@
 {
-  "name": "locus",
+  "name": "locus-helper",
   "version": "1.0.0",
   "description": "Locus Helper discord bot",
   "main": "index.js",
