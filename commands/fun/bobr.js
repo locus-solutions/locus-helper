@@ -10,9 +10,9 @@ module.exports = {
         let member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member;
 
         const embed = new MessageEmbed()
-        .setAuthor("Shout out My Nikka Beav")
+        .setAuthor({text: "Shout out My Nikka Beav"})
         .setDescription(`🦫🦫🦫   *🦫 * 🦫  🦫  🦫 ${member} 🦫 Bo You are This ***${util.randomizeNumber(1, 5000)}***🦫 Hi 🦫🦫🦫  🦫 🦫%  `)
-        .setFooter("☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️")
+        .setFooter({text: "☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️☎️"})
         .setColor("#926F5B");
 
         await message.reply({
