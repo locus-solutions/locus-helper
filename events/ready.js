@@ -6,7 +6,7 @@ module.exports = async(client) => {
         console.log(chalk.grey(`\n[-] Connecting...`))
     }, ms("0.2s"));
     setTimeout(async function() {
-        console.log(`Connected to ${client.user.tag}`)
+        console.log(chalk.bold(`Connected to ${client.user.tag}`))
     }, ms("1s"));
-    await client.user.setPresence({ activities: [{ name: ";help | locus.solutions" }] });
+    await client.user.setPresence({ activities: [{ name: `${client.config.prefix}help | locus.solutions` }] });
 }
