@@ -15,7 +15,7 @@
     "fs": "^0.0.1-security",
     "give-me-a-joke": "^0.5.1",
     "insult": "^0.0.3",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "ms": "^2.1.3",
     "node-fetch": "^2.6.7",
     "quick.db": "^7.1.3",
